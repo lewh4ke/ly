@@ -10,6 +10,7 @@ StandardInput=tty
 TTYPath=/dev/tty2
 TTYReset=yes
 TTYVHangup=yes
+Restart=always
 
 [Install]
 Alias=display-manager.service
